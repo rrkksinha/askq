@@ -1,6 +1,6 @@
 <!-- 
 	
-* askq.com 
+askq php project
 
 
 -->
