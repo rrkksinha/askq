@@ -1,0 +1,185 @@
+.bg {
+	background:url("../image/askq_bg.jpg");
+}
+
+.askqqq {
+	border-radius: 10px;
+	height: 50px;
+	width: 300px;
+}
+
+.container{
+	width: 550px;
+	padding: 90px 20px 12px 40px;
+    margin: auto;
+    //border: solid red;
+}
+
+.search[type=text] {
+    width: 400px;
+    box-sizing: border-box;
+    border: 3px solid #cccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../image/askq_search.jpg');
+    background-size: 25px;
+    background-position: 1px 1px; 
+    background-repeat: no-repeat;
+    padding: 2px 0px 2px 40px;
+    //-webkit-transition: width 0.4s ease-in-out;
+    //transition: width 0.4s ease-in-out;
+	margin: 10px 0px 0px 0px;
+	//border: solid blue;
+
+}
+
+/*
+input[type=text]:focus {
+    width: 90%;
+}
+*/
+.searchButton {
+	background-color: lightblue;
+	border-radius: 10px;
+	padding: 3px;
+	color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	//width: 10px;
+}
+
+.groove {
+	box-shadow: 1px 1px 20px blue;
+	margin: 20px 50px 0px 0px;
+	padding: 10px;
+	width: 460px;
+	border-radius: 5px;
+	margin: 50px 0px 0px 0px;
+	//border: solid blue;
+
+}
+
+.container_2 {
+	padding: 10px;
+	width: 435px;
+	border-radius: 5px;
+	//border: solid red;
+}
+
+.userName {
+	padding: 0px 0px 0px 5px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.loginForm {
+	margin-left: 50px;
+	//border: solid red;
+}
+
+.loginBtn {
+	box-shadow: 0px 0px 10px blue;
+	background-color: lightblue;
+	border-radius: 3px;
+}
+
+.registerHere {
+	box-shadow: 0px 0px 10px blue;
+	margin: 10px 0px 0px 140px;
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    border-radius: 5px;
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.signupContainer {
+	margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 5px;
+    //border: solid red;
+}
+
+/* position of the close button "x" */
+.closeBtn {
+    text-align: center;
+    margin: 10px 0 12px 0;
+    position: relative;
+}
+
+.signupForm {
+    margin: 10px 
+}
+
+.txt {
+    width: 50%;
+}
+
+.signUpBtn {
+    background-color: lightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    //border: solid red;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    //margin-right: 5px;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.r_me {
+    right: 5px;
+}
